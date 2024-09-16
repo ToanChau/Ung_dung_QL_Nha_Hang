@@ -58,11 +58,8 @@ C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL
 C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\bin\Debug\net8.0-windows\System.Management.dll
 C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
 C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.csproj.AssemblyReference.cache
-C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.FormDetail.resources
-C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.FormFunction.resources
 C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.Form_Main.resources
 C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.FormOrder.resources
-C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.FormTable.resources
 C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.csproj.GenerateResource.cache
 C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.AssemblyInfoInputs.cache
@@ -75,3 +72,6 @@ C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL
 C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.pdb
 C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.genruntimeconfig.cache
 C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\ref\main_form.dll
+C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.FormDetailTable.resources
+C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.Formtables.resources
+C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.Properties.Resources.resources

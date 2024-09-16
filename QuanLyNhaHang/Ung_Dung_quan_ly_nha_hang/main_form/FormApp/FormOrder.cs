@@ -7,12 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using main_form.work;
 
 namespace main_form
 {
     public partial class FormOrder : Form
     {
         PanelWork pw = new PanelWork();
+        UserControlWork uw = new UserControlWork();
         public FormOrder()
         {
             InitializeComponent();
@@ -21,12 +23,9 @@ namespace main_form
 
         private void setUpOrder()
         {
-            pw.CurrentChildForm = new FormTable();
-            pw.OpenChildForm(pw.CurrentChildForm, pan_table);
-
-
-            pw.CurrentChildForm = new FormDetail();
-            pw.OpenChildForm(pw.CurrentChildForm, pan_detail);
+            uw.OpenPanelForUserCtrl(Formtables.Instance, pan_table);
+            uw.OpenPanelForUserCtrl(FormDetailTable.Instance, pan_detail);
         }
+
     }
 }

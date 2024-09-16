@@ -29,30 +29,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            pan_table = new Panel();
             pan_detail = new Panel();
+            pan_table = new Panel();
             SuspendLayout();
+            // 
+            // pan_detail
+            // 
+            pan_detail.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            pan_detail.Location = new Point(574, 0);
+            pan_detail.Name = "pan_detail";
+            pan_detail.Size = new Size(376, 550);
+            pan_detail.TabIndex = 0;
             // 
             // pan_table
             // 
             pan_table.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pan_table.Location = new Point(0, 0);
             pan_table.Name = "pan_table";
-            pan_table.Size = new Size(308, 545);
+            pan_table.Size = new Size(391, 545);
             pan_table.TabIndex = 0;
-            // 
-            // pan_detail
-            // 
-            pan_detail.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
-            pan_detail.Location = new Point(275, 1);
-            pan_detail.Name = "pan_detail";
-            pan_detail.Size = new Size(675, 544);
-            pan_detail.TabIndex = 0;
             // 
             // FormOrder
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
             ClientSize = new Size(951, 545);
             Controls.Add(pan_detail);
             Controls.Add(pan_table);
@@ -62,9 +63,8 @@
         }
 
         #endregion
-
-        private Panel pan_table;
-        private Panel pan_detail;
         DrawPanel dpanel = new DrawPanel();
+        private Panel pan_detail;
+        private Panel pan_table;
     }
 }

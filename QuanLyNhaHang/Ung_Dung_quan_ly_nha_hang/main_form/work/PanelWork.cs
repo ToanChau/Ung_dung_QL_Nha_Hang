@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace main_form
+namespace main_form.work
 {
     public class PanelWork
     {
@@ -20,6 +20,7 @@ namespace main_form
             {
                 childForm.TopLevel = false;
                 childForm.FormBorderStyle = FormBorderStyle.None;
+                panelContent.Controls.Clear();
                 childForm.Dock = DockStyle.Fill;
                 panelContent.Controls.Add(childForm);
                 panelContent.Tag = childForm;
@@ -36,6 +37,7 @@ namespace main_form
             CurrentChildForm = childForm;
             childForm.TopLevel = false;
             childForm.FormBorderStyle = FormBorderStyle.None;
+            panelContent.Controls.Clear();
             childForm.Dock = DockStyle.Fill;
             panelContent.Controls.Add(childForm);
             panelContent.Tag = childForm;
@@ -43,5 +45,23 @@ namespace main_form
             childForm.Show();
             return;
         }
+
+        public void ShowFormInPanel(Form formToShow, Panel panelContainer)
+        {
+            // Đặt Form thành không có viền để khi nhúng vào Panel không hiển thị thanh tiêu đề
+            formToShow.TopLevel = false;
+            formToShow.FormBorderStyle = FormBorderStyle.None;
+
+            // Đặt Form vừa với Panel
+            formToShow.Dock = DockStyle.Fill;
+
+            // Thêm Form vào Panel
+            panelContainer.Controls.Clear();  // Xóa các điều khiển trước đó trong Panel
+            panelContainer.Controls.Add(formToShow);
+
+            // Hiển thị Form
+            formToShow.Show();
+        }
+
     }
 }
