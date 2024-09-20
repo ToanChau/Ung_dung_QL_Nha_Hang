@@ -31,7 +31,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            flowLayoutPanel2 = new FlowLayoutPanel();
+            Fpanel_Menu = new FlowLayoutPanel();
             img_Menu = new PictureBox();
             label3 = new Label();
             lab_Menu = new Label();
@@ -41,49 +41,49 @@
             img_User = new PictureBox();
             lab_NameUser = new Label();
             lab_Log = new Label();
-            flowLayoutPanel4 = new FlowLayoutPanel();
+            Fpanel_Account = new FlowLayoutPanel();
             img_Account = new PictureBox();
             label7 = new Label();
             lab_Account = new Label();
-            flowLayoutPanel3 = new FlowLayoutPanel();
+            Fpanel_Staff = new FlowLayoutPanel();
             img_Staff = new PictureBox();
             label5 = new Label();
             lab_Staff = new Label();
-            flowLayoutPanel1 = new FlowLayoutPanel();
+            Fpanel_Home = new FlowLayoutPanel();
             img_Home = new PictureBox();
             label2 = new Label();
             lab_Home = new Label();
             pictureBox2 = new PictureBox();
             pictureBox1 = new PictureBox();
-            flowLayoutPanel2.SuspendLayout();
+            Fpanel_Menu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)img_Menu).BeginInit();
             pan_function.SuspendLayout();
             flowLayoutPanel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)img_User).BeginInit();
-            flowLayoutPanel4.SuspendLayout();
+            Fpanel_Account.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)img_Account).BeginInit();
-            flowLayoutPanel3.SuspendLayout();
+            Fpanel_Staff.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)img_Staff).BeginInit();
-            flowLayoutPanel1.SuspendLayout();
+            Fpanel_Home.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)img_Home).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // flowLayoutPanel2
+            // Fpanel_Menu
             // 
-            flowLayoutPanel2.AllowDrop = true;
-            flowLayoutPanel2.Controls.Add(img_Menu);
-            flowLayoutPanel2.Controls.Add(label3);
-            flowLayoutPanel2.Controls.Add(lab_Menu);
-            flowLayoutPanel2.Cursor = Cursors.Hand;
-            flowLayoutPanel2.ImeMode = ImeMode.NoControl;
-            flowLayoutPanel2.Location = new Point(3, 308);
-            flowLayoutPanel2.Name = "flowLayoutPanel2";
-            flowLayoutPanel2.Size = new Size(342, 95);
-            flowLayoutPanel2.TabIndex = 1;
-            flowLayoutPanel2.MouseLeave += Change_MouseLeave;
-            flowLayoutPanel2.MouseHover += Change_MouseHover;
+            Fpanel_Menu.AllowDrop = true;
+            Fpanel_Menu.Controls.Add(img_Menu);
+            Fpanel_Menu.Controls.Add(label3);
+            Fpanel_Menu.Controls.Add(lab_Menu);
+            Fpanel_Menu.Cursor = Cursors.Hand;
+            Fpanel_Menu.ImeMode = ImeMode.NoControl;
+            Fpanel_Menu.Location = new Point(3, 308);
+            Fpanel_Menu.Name = "Fpanel_Menu";
+            Fpanel_Menu.Size = new Size(342, 95);
+            Fpanel_Menu.TabIndex = 1;
+            Fpanel_Menu.MouseLeave += Change_MouseLeave;
+            Fpanel_Menu.MouseHover += Change_MouseHover;
             // 
             // img_Menu
             // 
@@ -132,10 +132,10 @@
             pan_function.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             pan_function.BackColor = Color.SteelBlue;
             pan_function.Controls.Add(flowLayoutPanel6);
-            pan_function.Controls.Add(flowLayoutPanel4);
-            pan_function.Controls.Add(flowLayoutPanel3);
-            pan_function.Controls.Add(flowLayoutPanel2);
-            pan_function.Controls.Add(flowLayoutPanel1);
+            pan_function.Controls.Add(Fpanel_Account);
+            pan_function.Controls.Add(Fpanel_Staff);
+            pan_function.Controls.Add(Fpanel_Menu);
+            pan_function.Controls.Add(Fpanel_Home);
             pan_function.Controls.Add(pictureBox2);
             pan_function.Controls.Add(pictureBox1);
             pan_function.Location = new Point(1, 0);
@@ -192,20 +192,20 @@
             lab_Log.Text = "Đăng xuất";
             lab_Log.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // flowLayoutPanel4
+            // Fpanel_Account
             // 
-            flowLayoutPanel4.AllowDrop = true;
-            flowLayoutPanel4.Controls.Add(img_Account);
-            flowLayoutPanel4.Controls.Add(label7);
-            flowLayoutPanel4.Controls.Add(lab_Account);
-            flowLayoutPanel4.Cursor = Cursors.Hand;
-            flowLayoutPanel4.ImeMode = ImeMode.NoControl;
-            flowLayoutPanel4.Location = new Point(3, 507);
-            flowLayoutPanel4.Name = "flowLayoutPanel4";
-            flowLayoutPanel4.Size = new Size(342, 95);
-            flowLayoutPanel4.TabIndex = 1;
-            flowLayoutPanel4.MouseLeave += Change_MouseLeave;
-            flowLayoutPanel4.MouseHover += Change_MouseHover;
+            Fpanel_Account.AllowDrop = true;
+            Fpanel_Account.Controls.Add(img_Account);
+            Fpanel_Account.Controls.Add(label7);
+            Fpanel_Account.Controls.Add(lab_Account);
+            Fpanel_Account.Cursor = Cursors.Hand;
+            Fpanel_Account.ImeMode = ImeMode.NoControl;
+            Fpanel_Account.Location = new Point(3, 507);
+            Fpanel_Account.Name = "Fpanel_Account";
+            Fpanel_Account.Size = new Size(342, 95);
+            Fpanel_Account.TabIndex = 1;
+            Fpanel_Account.MouseLeave += Change_MouseLeave;
+            Fpanel_Account.MouseHover += Change_MouseHover;
             // 
             // img_Account
             // 
@@ -241,20 +241,20 @@
             lab_Account.Text = "Thống kê";
             lab_Account.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // flowLayoutPanel3
+            // Fpanel_Staff
             // 
-            flowLayoutPanel3.AllowDrop = true;
-            flowLayoutPanel3.Controls.Add(img_Staff);
-            flowLayoutPanel3.Controls.Add(label5);
-            flowLayoutPanel3.Controls.Add(lab_Staff);
-            flowLayoutPanel3.Cursor = Cursors.Hand;
-            flowLayoutPanel3.ImeMode = ImeMode.NoControl;
-            flowLayoutPanel3.Location = new Point(3, 409);
-            flowLayoutPanel3.Name = "flowLayoutPanel3";
-            flowLayoutPanel3.Size = new Size(342, 95);
-            flowLayoutPanel3.TabIndex = 1;
-            flowLayoutPanel3.MouseLeave += Change_MouseLeave;
-            flowLayoutPanel3.MouseHover += Change_MouseHover;
+            Fpanel_Staff.AllowDrop = true;
+            Fpanel_Staff.Controls.Add(img_Staff);
+            Fpanel_Staff.Controls.Add(label5);
+            Fpanel_Staff.Controls.Add(lab_Staff);
+            Fpanel_Staff.Cursor = Cursors.Hand;
+            Fpanel_Staff.ImeMode = ImeMode.NoControl;
+            Fpanel_Staff.Location = new Point(3, 409);
+            Fpanel_Staff.Name = "Fpanel_Staff";
+            Fpanel_Staff.Size = new Size(342, 95);
+            Fpanel_Staff.TabIndex = 1;
+            Fpanel_Staff.MouseLeave += Change_MouseLeave;
+            Fpanel_Staff.MouseHover += Change_MouseHover;
             // 
             // img_Staff
             // 
@@ -290,21 +290,21 @@
             lab_Staff.Text = "Nhân viên";
             lab_Staff.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // flowLayoutPanel1
+            // Fpanel_Home
             // 
-            flowLayoutPanel1.AllowDrop = true;
-            flowLayoutPanel1.Controls.Add(img_Home);
-            flowLayoutPanel1.Controls.Add(label2);
-            flowLayoutPanel1.Controls.Add(lab_Home);
-            flowLayoutPanel1.Cursor = Cursors.Hand;
-            flowLayoutPanel1.ImeMode = ImeMode.NoControl;
-            flowLayoutPanel1.Location = new Point(3, 207);
-            flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(342, 95);
-            flowLayoutPanel1.TabIndex = 1;
-            flowLayoutPanel1.WrapContents = false;
-            flowLayoutPanel1.MouseLeave += Change_MouseLeave;
-            flowLayoutPanel1.MouseHover += Change_MouseHover;
+            Fpanel_Home.AllowDrop = true;
+            Fpanel_Home.Controls.Add(img_Home);
+            Fpanel_Home.Controls.Add(label2);
+            Fpanel_Home.Controls.Add(lab_Home);
+            Fpanel_Home.Cursor = Cursors.Hand;
+            Fpanel_Home.ImeMode = ImeMode.NoControl;
+            Fpanel_Home.Location = new Point(3, 207);
+            Fpanel_Home.Name = "Fpanel_Home";
+            Fpanel_Home.Size = new Size(342, 95);
+            Fpanel_Home.TabIndex = 1;
+            Fpanel_Home.WrapContents = false;
+            Fpanel_Home.MouseLeave += Change_MouseLeave;
+            Fpanel_Home.MouseHover += Change_MouseHover;
             // 
             // img_Home
             // 
@@ -377,16 +377,16 @@
             Name = "Form_Main";
             Text = "Form1";
             WindowState = FormWindowState.Maximized;
-            flowLayoutPanel2.ResumeLayout(false);
+            Fpanel_Menu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)img_Menu).EndInit();
             pan_function.ResumeLayout(false);
             flowLayoutPanel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)img_User).EndInit();
-            flowLayoutPanel4.ResumeLayout(false);
+            Fpanel_Account.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)img_Account).EndInit();
-            flowLayoutPanel3.ResumeLayout(false);
+            Fpanel_Staff.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)img_Staff).EndInit();
-            flowLayoutPanel1.ResumeLayout(false);
+            Fpanel_Home.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)img_Home).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -397,19 +397,19 @@
         private Panel pan_order;
         private Panel pan_function;
         private PictureBox pictureBox1;
-        private FlowLayoutPanel flowLayoutPanel1;
+        private FlowLayoutPanel Fpanel_Home;
         private PictureBox img_Home;
         private Label lab_Home;
         private Label label2;
-        private FlowLayoutPanel flowLayoutPanel4;
+        private FlowLayoutPanel Fpanel_Account;
         private PictureBox img_Account;
         private Label label7;
         private Label lab_Account;
-        private FlowLayoutPanel flowLayoutPanel3;
+        private FlowLayoutPanel Fpanel_Staff;
         private PictureBox img_Staff;
         private Label label5;
         private Label lab_Staff;
-        private FlowLayoutPanel flowLayoutPanel2;
+        private FlowLayoutPanel Fpanel_Menu;
         private PictureBox img_Menu;
         private Label label3;
         private Label lab_Menu;

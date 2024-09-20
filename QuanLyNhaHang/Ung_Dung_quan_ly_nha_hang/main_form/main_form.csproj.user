@@ -4,14 +4,20 @@
     <Compile Update="FormApp\FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormApp\FormOpenTableDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="FormApp\FormOrder.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormApp\Formtables.cs">
+    <Compile Update="FormApp\FormTables.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="FormApp\FormDetailTable.cs">
+    <Compile Update="FormApp\FormDetailTableOrder.cs">
       <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="OOP\ElipseControl.cs">
+      <SubType>Component</SubType>
     </Compile>
   </ItemGroup>
 </Project>

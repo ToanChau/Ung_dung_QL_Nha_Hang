@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using main_form.FormApp;
 using main_form.work;
 
 namespace main_form
@@ -24,7 +25,7 @@ namespace main_form
         private void setUpOrder()
         {
             uw.OpenPanelForUserCtrl(Formtables.Instance, pan_table);
-            uw.OpenPanelForUserCtrl(FormDetailTable.Instance, pan_detail);
+            uw.OpenPanelForUserCtrl(FormOpenTableDetail.Instance, pan_detail);
         }
 
     }

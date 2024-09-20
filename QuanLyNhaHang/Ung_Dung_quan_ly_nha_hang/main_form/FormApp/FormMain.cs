@@ -21,12 +21,28 @@ namespace main_form
             pw.CurrentChildForm = new FormOrder();
             pw.OpenChildForm(pw.CurrentChildForm, pan_order);
 
-            //FormFunction ffunction = new FormFunction();
-            //pw.ShowFormInPanel(ffunction, pan_funtion);
-
-            //FormOrder foder = new FormOrder();
-            //pw.ShowFormInPanel(foder, pan_order);
+            //setUpHoverPanel(Fpanel_Home);
+            //setUpHoverPanel(Fpanel_Menu);
+            //setUpHoverPanel(Fpanel_Staff);
+            //setUpHoverPanel(Fpanel_Account);
         }
+
+        //private void setUpHoverPanel(Panel p)
+        //{
+        //    foreach (Control c in p.Controls)
+        //    {
+        //        if (c != null)
+        //        {
+        //            c.MouseHover += new EventHandler(Change_MouseHover(p));
+        //            c.MouseLeave += new EventHandler(Change_MouseLeave(p));
+        //        }
+        //    }
+        //}
+
+        //private void changeColorPanel(Panel panel, Color color)
+        //{
+        //    panel.BackColor = color;
+        //}
 
         private void Change_MouseHover(object sender, EventArgs e)
         {

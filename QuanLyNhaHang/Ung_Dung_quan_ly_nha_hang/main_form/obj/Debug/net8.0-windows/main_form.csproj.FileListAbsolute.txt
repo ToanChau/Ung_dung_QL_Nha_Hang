@@ -72,6 +72,7 @@ C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL
 C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.pdb
 C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.genruntimeconfig.cache
 C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\ref\main_form.dll
-C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.FormDetailTable.resources
 C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.Formtables.resources
 C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.FormDetailTableOrder.resources
+C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.FormApp.FormOpenTableDetail.resources
