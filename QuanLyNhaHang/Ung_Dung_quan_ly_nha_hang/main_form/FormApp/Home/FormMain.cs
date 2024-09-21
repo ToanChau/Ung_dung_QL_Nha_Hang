@@ -1,6 +1,7 @@
 ﻿using System.Windows.Forms;
 using main_form.Draw;
 using main_form.FormApp.Menu;
+using main_form.FormApp.UserController;
 using main_form.work;
 
 namespace main_form
@@ -34,33 +35,21 @@ namespace main_form
             //setUpHoverPanel(Fpanel_Account);
         }
 
-        //private void setUpHoverPanel(Panel p)
-        //{
-        //    foreach (Control c in p.Controls)
-        //    {
-        //        if (c != null)
-        //        {
-        //            c.MouseHover += new EventHandler(Change_MouseHover(p));
-        //            c.MouseLeave += new EventHandler(Change_MouseLeave(p));
-        //        }
-        //    }
-        //}
-
-        //private void changeColorPanel(Panel panel, Color color)
-        //{
-        //    panel.BackColor = color;
-        //}
-
         private void Change_MouseHover(object sender, EventArgs e)
         {
-            Panel p = (Panel)sender;
-            p.BackColor = Color.Blue;
+            ButtonFacilities_mainForm btn = (ButtonFacilities_mainForm)sender;
+            btn.BackColor = Color.Blue;
         }
 
         private void Change_MouseLeave(object sender, EventArgs e)
         {
-            Panel p = (Panel)sender;
-            p.BackColor = Color.SteelBlue;
+            ButtonFacilities_mainForm btn = (ButtonFacilities_mainForm)sender;
+            btn.BackColor = Color.Transparent;
+        }
+
+        private void btn_Home_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("h", "j");
         }
     }
 }

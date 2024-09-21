@@ -43,6 +43,9 @@
     <Compile Update="FormApp\Pay\FormPayBill.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="FormApp\UserController\ButtonFacilities_mainForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="FormApp\UserController\PanelDishes2.cs">
       <SubType>UserControl</SubType>
     </Compile>

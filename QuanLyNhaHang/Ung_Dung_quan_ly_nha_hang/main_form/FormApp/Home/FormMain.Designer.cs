@@ -32,92 +32,24 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Main));
-            Fpanel_Menu = new FlowLayoutPanel();
-            img_Menu = new PictureBox();
-            label3 = new Label();
-            lab_Menu = new Label();
             pan_order = new Panel();
             pan_function = new Panel();
+            btn_Accounting = new FormApp.UserController.ButtonFacilities_mainForm();
+            btn_Staff = new FormApp.UserController.ButtonFacilities_mainForm();
+            btn_Menu = new FormApp.UserController.ButtonFacilities_mainForm();
+            btn_Home = new FormApp.UserController.ButtonFacilities_mainForm();
             flowLayoutPanel6 = new FlowLayoutPanel();
             img_User = new PictureBox();
             lab_NameUser = new Label();
             lab_Log = new Label();
-            Fpanel_Account = new FlowLayoutPanel();
-            img_Account = new PictureBox();
-            label7 = new Label();
-            lab_Account = new Label();
-            Fpanel_Staff = new FlowLayoutPanel();
-            img_Staff = new PictureBox();
-            label5 = new Label();
-            lab_Staff = new Label();
-            Fpanel_Home = new FlowLayoutPanel();
-            img_Home = new PictureBox();
-            label2 = new Label();
-            lab_Home = new Label();
             pictureBox2 = new PictureBox();
             pictureBox1 = new PictureBox();
-            Fpanel_Menu.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)img_Menu).BeginInit();
             pan_function.SuspendLayout();
             flowLayoutPanel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)img_User).BeginInit();
-            Fpanel_Account.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)img_Account).BeginInit();
-            Fpanel_Staff.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)img_Staff).BeginInit();
-            Fpanel_Home.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)img_Home).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
-            // 
-            // Fpanel_Menu
-            // 
-            Fpanel_Menu.AllowDrop = true;
-            Fpanel_Menu.Controls.Add(img_Menu);
-            Fpanel_Menu.Controls.Add(label3);
-            Fpanel_Menu.Controls.Add(lab_Menu);
-            Fpanel_Menu.Cursor = Cursors.Hand;
-            Fpanel_Menu.ImeMode = ImeMode.NoControl;
-            Fpanel_Menu.Location = new Point(3, 308);
-            Fpanel_Menu.Name = "Fpanel_Menu";
-            Fpanel_Menu.Size = new Size(342, 95);
-            Fpanel_Menu.TabIndex = 1;
-            Fpanel_Menu.MouseLeave += Change_MouseLeave;
-            Fpanel_Menu.MouseHover += Change_MouseHover;
-            // 
-            // img_Menu
-            // 
-            img_Menu.Image = Properties.Resources.menu;
-            img_Menu.InitialImage = Properties.Resources.staff;
-            img_Menu.Location = new Point(3, 3);
-            img_Menu.Name = "img_Menu";
-            img_Menu.Size = new Size(97, 95);
-            img_Menu.TabIndex = 0;
-            img_Menu.TabStop = false;
-            // 
-            // label3
-            // 
-            label3.BackColor = Color.Transparent;
-            label3.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(106, 0);
-            label3.Name = "label3";
-            label3.Size = new Size(29, 60);
-            label3.TabIndex = 2;
-            label3.Text = " ";
-            label3.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // lab_Menu
-            // 
-            lab_Menu.BackColor = Color.Transparent;
-            lab_Menu.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lab_Menu.ForeColor = Color.White;
-            lab_Menu.Location = new Point(141, 0);
-            lab_Menu.Name = "lab_Menu";
-            lab_Menu.Size = new Size(161, 95);
-            lab_Menu.TabIndex = 1;
-            lab_Menu.Text = "Thực đơn";
-            lab_Menu.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // pan_order
             // 
@@ -132,17 +64,78 @@
             // 
             pan_function.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             pan_function.BackColor = Color.SteelBlue;
+            pan_function.Controls.Add(btn_Accounting);
+            pan_function.Controls.Add(btn_Staff);
+            pan_function.Controls.Add(btn_Menu);
+            pan_function.Controls.Add(btn_Home);
             pan_function.Controls.Add(flowLayoutPanel6);
-            pan_function.Controls.Add(Fpanel_Account);
-            pan_function.Controls.Add(Fpanel_Staff);
-            pan_function.Controls.Add(Fpanel_Menu);
-            pan_function.Controls.Add(Fpanel_Home);
             pan_function.Controls.Add(pictureBox2);
             pan_function.Controls.Add(pictureBox1);
             pan_function.Location = new Point(1, 0);
             pan_function.Name = "pan_function";
             pan_function.Size = new Size(348, 995);
             pan_function.TabIndex = 1;
+            // 
+            // btn_Accounting
+            // 
+            btn_Accounting.AutoSize = true;
+            btn_Accounting.BackColor = Color.Transparent;
+            btn_Accounting.ColorFacilities = Color.Transparent;
+            btn_Accounting.Cursor = Cursors.Hand;
+            btn_Accounting.ImageFacilities = (Image)resources.GetObject("btn_Accounting.ImageFacilities");
+            btn_Accounting.Location = new Point(19, 544);
+            btn_Accounting.Name = "btn_Accounting";
+            btn_Accounting.NameFacilitie = "Thống kê";
+            btn_Accounting.Size = new Size(329, 100);
+            btn_Accounting.TabIndex = 2;
+            btn_Accounting.MouseLeave += Change_MouseLeave;
+            btn_Accounting.MouseHover += Change_MouseHover;
+            // 
+            // btn_Staff
+            // 
+            btn_Staff.AutoSize = true;
+            btn_Staff.BackColor = Color.Transparent;
+            btn_Staff.ColorFacilities = Color.Transparent;
+            btn_Staff.Cursor = Cursors.Hand;
+            btn_Staff.ImageFacilities = (Image)resources.GetObject("btn_Staff.ImageFacilities");
+            btn_Staff.Location = new Point(19, 438);
+            btn_Staff.Name = "btn_Staff";
+            btn_Staff.NameFacilitie = "Nhân viên";
+            btn_Staff.Size = new Size(329, 100);
+            btn_Staff.TabIndex = 2;
+            btn_Staff.MouseLeave += Change_MouseLeave;
+            btn_Staff.MouseHover += Change_MouseHover;
+            // 
+            // btn_Menu
+            // 
+            btn_Menu.AutoSize = true;
+            btn_Menu.BackColor = Color.Transparent;
+            btn_Menu.ColorFacilities = Color.Transparent;
+            btn_Menu.Cursor = Cursors.Hand;
+            btn_Menu.ImageFacilities = (Image)resources.GetObject("btn_Menu.ImageFacilities");
+            btn_Menu.Location = new Point(16, 332);
+            btn_Menu.Name = "btn_Menu";
+            btn_Menu.NameFacilitie = "Thực đơn";
+            btn_Menu.Size = new Size(329, 100);
+            btn_Menu.TabIndex = 2;
+            btn_Menu.MouseLeave += Change_MouseLeave;
+            btn_Menu.MouseHover += Change_MouseHover;
+            // 
+            // btn_Home
+            // 
+            btn_Home.AutoSize = true;
+            btn_Home.BackColor = Color.Transparent;
+            btn_Home.ColorFacilities = Color.Transparent;
+            btn_Home.Cursor = Cursors.Hand;
+            btn_Home.ImageFacilities = (Image)resources.GetObject("btn_Home.ImageFacilities");
+            btn_Home.Location = new Point(16, 226);
+            btn_Home.Name = "btn_Home";
+            btn_Home.NameFacilitie = "Trang chủ";
+            btn_Home.Size = new Size(329, 100);
+            btn_Home.TabIndex = 2;
+            btn_Home.Click += btn_Home_Click;
+            btn_Home.MouseLeave += Change_MouseLeave;
+            btn_Home.MouseHover += Change_MouseHover;
             // 
             // flowLayoutPanel6
             // 
@@ -194,157 +187,6 @@
             lab_Log.Text = "Đăng xuất";
             lab_Log.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // Fpanel_Account
-            // 
-            Fpanel_Account.AllowDrop = true;
-            Fpanel_Account.Controls.Add(img_Account);
-            Fpanel_Account.Controls.Add(label7);
-            Fpanel_Account.Controls.Add(lab_Account);
-            Fpanel_Account.Cursor = Cursors.Hand;
-            Fpanel_Account.ImeMode = ImeMode.NoControl;
-            Fpanel_Account.Location = new Point(3, 507);
-            Fpanel_Account.Name = "Fpanel_Account";
-            Fpanel_Account.Size = new Size(342, 95);
-            Fpanel_Account.TabIndex = 1;
-            Fpanel_Account.MouseLeave += Change_MouseLeave;
-            Fpanel_Account.MouseHover += Change_MouseHover;
-            // 
-            // img_Account
-            // 
-            img_Account.Image = Properties.Resources.Acounting;
-            img_Account.InitialImage = Properties.Resources.staff;
-            img_Account.Location = new Point(3, 3);
-            img_Account.Name = "img_Account";
-            img_Account.Size = new Size(97, 95);
-            img_Account.SizeMode = PictureBoxSizeMode.Zoom;
-            img_Account.TabIndex = 0;
-            img_Account.TabStop = false;
-            // 
-            // label7
-            // 
-            label7.BackColor = Color.Transparent;
-            label7.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.Location = new Point(106, 0);
-            label7.Name = "label7";
-            label7.Size = new Size(29, 60);
-            label7.TabIndex = 2;
-            label7.Text = " ";
-            label7.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // lab_Account
-            // 
-            lab_Account.BackColor = Color.Transparent;
-            lab_Account.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lab_Account.ForeColor = Color.White;
-            lab_Account.Location = new Point(141, 0);
-            lab_Account.Name = "lab_Account";
-            lab_Account.Size = new Size(161, 95);
-            lab_Account.TabIndex = 1;
-            lab_Account.Text = "Thống kê";
-            lab_Account.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // Fpanel_Staff
-            // 
-            Fpanel_Staff.AllowDrop = true;
-            Fpanel_Staff.Controls.Add(img_Staff);
-            Fpanel_Staff.Controls.Add(label5);
-            Fpanel_Staff.Controls.Add(lab_Staff);
-            Fpanel_Staff.Cursor = Cursors.Hand;
-            Fpanel_Staff.ImeMode = ImeMode.NoControl;
-            Fpanel_Staff.Location = new Point(3, 409);
-            Fpanel_Staff.Name = "Fpanel_Staff";
-            Fpanel_Staff.Size = new Size(342, 95);
-            Fpanel_Staff.TabIndex = 1;
-            Fpanel_Staff.MouseLeave += Change_MouseLeave;
-            Fpanel_Staff.MouseHover += Change_MouseHover;
-            // 
-            // img_Staff
-            // 
-            img_Staff.Image = Properties.Resources.staff1;
-            img_Staff.InitialImage = Properties.Resources.staff;
-            img_Staff.Location = new Point(3, 3);
-            img_Staff.Name = "img_Staff";
-            img_Staff.Size = new Size(97, 95);
-            img_Staff.SizeMode = PictureBoxSizeMode.Zoom;
-            img_Staff.TabIndex = 0;
-            img_Staff.TabStop = false;
-            // 
-            // label5
-            // 
-            label5.BackColor = Color.Transparent;
-            label5.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(106, 0);
-            label5.Name = "label5";
-            label5.Size = new Size(29, 60);
-            label5.TabIndex = 2;
-            label5.Text = " ";
-            label5.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // lab_Staff
-            // 
-            lab_Staff.BackColor = Color.Transparent;
-            lab_Staff.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lab_Staff.ForeColor = Color.White;
-            lab_Staff.Location = new Point(141, 0);
-            lab_Staff.Name = "lab_Staff";
-            lab_Staff.Size = new Size(161, 95);
-            lab_Staff.TabIndex = 1;
-            lab_Staff.Text = "Nhân viên";
-            lab_Staff.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // Fpanel_Home
-            // 
-            Fpanel_Home.AllowDrop = true;
-            Fpanel_Home.Controls.Add(img_Home);
-            Fpanel_Home.Controls.Add(label2);
-            Fpanel_Home.Controls.Add(lab_Home);
-            Fpanel_Home.Cursor = Cursors.Hand;
-            Fpanel_Home.ImeMode = ImeMode.NoControl;
-            Fpanel_Home.Location = new Point(3, 207);
-            Fpanel_Home.Name = "Fpanel_Home";
-            Fpanel_Home.Size = new Size(342, 95);
-            Fpanel_Home.TabIndex = 1;
-            Fpanel_Home.WrapContents = false;
-            Fpanel_Home.MouseLeave += Change_MouseLeave;
-            Fpanel_Home.MouseHover += Change_MouseHover;
-            // 
-            // img_Home
-            // 
-            img_Home.BackgroundImageLayout = ImageLayout.None;
-            img_Home.Cursor = Cursors.Hand;
-            img_Home.Image = Properties.Resources.Home;
-            img_Home.ImageLocation = "";
-            img_Home.InitialImage = Properties.Resources.staff;
-            img_Home.Location = new Point(3, 3);
-            img_Home.Name = "img_Home";
-            img_Home.Size = new Size(97, 95);
-            img_Home.SizeMode = PictureBoxSizeMode.Zoom;
-            img_Home.TabIndex = 0;
-            img_Home.TabStop = false;
-            // 
-            // label2
-            // 
-            label2.BackColor = Color.Transparent;
-            label2.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(106, 0);
-            label2.Name = "label2";
-            label2.Size = new Size(29, 60);
-            label2.TabIndex = 2;
-            label2.Text = " ";
-            label2.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // lab_Home
-            // 
-            lab_Home.BackColor = Color.Transparent;
-            lab_Home.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lab_Home.ForeColor = Color.White;
-            lab_Home.Location = new Point(141, 0);
-            lab_Home.Name = "lab_Home";
-            lab_Home.Size = new Size(161, 95);
-            lab_Home.TabIndex = 1;
-            lab_Home.Text = "Trang chủ";
-            lab_Home.TextAlign = ContentAlignment.MiddleCenter;
-            // 
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.VNFlat;
@@ -379,17 +221,10 @@
             Name = "Form_Main";
             Text = "Form1";
             WindowState = FormWindowState.Maximized;
-            Fpanel_Menu.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)img_Menu).EndInit();
             pan_function.ResumeLayout(false);
+            pan_function.PerformLayout();
             flowLayoutPanel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)img_User).EndInit();
-            Fpanel_Account.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)img_Account).EndInit();
-            Fpanel_Staff.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)img_Staff).EndInit();
-            Fpanel_Home.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)img_Home).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
@@ -399,26 +234,14 @@
         private Panel pan_order;
         private Panel pan_function;
         private PictureBox pictureBox1;
-        private FlowLayoutPanel Fpanel_Home;
-        private PictureBox img_Home;
-        private Label lab_Home;
-        private Label label2;
-        private FlowLayoutPanel Fpanel_Account;
-        private PictureBox img_Account;
-        private Label label7;
-        private Label lab_Account;
-        private FlowLayoutPanel Fpanel_Staff;
-        private PictureBox img_Staff;
-        private Label label5;
-        private Label lab_Staff;
-        private FlowLayoutPanel Fpanel_Menu;
-        private PictureBox img_Menu;
-        private Label label3;
-        private Label lab_Menu;
         private FlowLayoutPanel flowLayoutPanel6;
         private PictureBox img_User;
         private Label lab_NameUser;
         private Label lab_Log;
         private PictureBox pictureBox2;
+        private FormApp.UserController.ButtonFacilities_mainForm btn_Accounting;
+        private FormApp.UserController.ButtonFacilities_mainForm btn_Staff;
+        private FormApp.UserController.ButtonFacilities_mainForm btn_Menu;
+        private FormApp.UserController.ButtonFacilities_mainForm btn_Home;
     }
 }
