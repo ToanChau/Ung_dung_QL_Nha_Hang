@@ -80,13 +80,14 @@
             // 
             btn_Accounting.AutoSize = true;
             btn_Accounting.BackColor = Color.Transparent;
+            btn_Accounting.ColorChange = Color.Empty;
             btn_Accounting.ColorFacilities = Color.Transparent;
             btn_Accounting.Cursor = Cursors.Hand;
             btn_Accounting.ImageFacilities = (Image)resources.GetObject("btn_Accounting.ImageFacilities");
-            btn_Accounting.Location = new Point(19, 544);
+            btn_Accounting.Location = new Point(3, 544);
             btn_Accounting.Name = "btn_Accounting";
             btn_Accounting.NameFacilitie = "Thống kê";
-            btn_Accounting.Size = new Size(329, 100);
+            btn_Accounting.Size = new Size(345, 100);
             btn_Accounting.TabIndex = 2;
             btn_Accounting.MouseLeave += Change_MouseLeave;
             btn_Accounting.MouseHover += Change_MouseHover;
@@ -95,13 +96,14 @@
             // 
             btn_Staff.AutoSize = true;
             btn_Staff.BackColor = Color.Transparent;
+            btn_Staff.ColorChange = Color.Empty;
             btn_Staff.ColorFacilities = Color.Transparent;
             btn_Staff.Cursor = Cursors.Hand;
             btn_Staff.ImageFacilities = (Image)resources.GetObject("btn_Staff.ImageFacilities");
-            btn_Staff.Location = new Point(19, 438);
+            btn_Staff.Location = new Point(3, 438);
             btn_Staff.Name = "btn_Staff";
             btn_Staff.NameFacilitie = "Nhân viên";
-            btn_Staff.Size = new Size(329, 100);
+            btn_Staff.Size = new Size(345, 100);
             btn_Staff.TabIndex = 2;
             btn_Staff.MouseLeave += Change_MouseLeave;
             btn_Staff.MouseHover += Change_MouseHover;
@@ -110,13 +112,14 @@
             // 
             btn_Menu.AutoSize = true;
             btn_Menu.BackColor = Color.Transparent;
+            btn_Menu.ColorChange = Color.Empty;
             btn_Menu.ColorFacilities = Color.Transparent;
             btn_Menu.Cursor = Cursors.Hand;
             btn_Menu.ImageFacilities = (Image)resources.GetObject("btn_Menu.ImageFacilities");
-            btn_Menu.Location = new Point(16, 332);
+            btn_Menu.Location = new Point(3, 332);
             btn_Menu.Name = "btn_Menu";
             btn_Menu.NameFacilitie = "Thực đơn";
-            btn_Menu.Size = new Size(329, 100);
+            btn_Menu.Size = new Size(345, 100);
             btn_Menu.TabIndex = 2;
             btn_Menu.MouseLeave += Change_MouseLeave;
             btn_Menu.MouseHover += Change_MouseHover;
@@ -125,13 +128,14 @@
             // 
             btn_Home.AutoSize = true;
             btn_Home.BackColor = Color.Transparent;
+            btn_Home.ColorChange = Color.Empty;
             btn_Home.ColorFacilities = Color.Transparent;
             btn_Home.Cursor = Cursors.Hand;
             btn_Home.ImageFacilities = (Image)resources.GetObject("btn_Home.ImageFacilities");
-            btn_Home.Location = new Point(16, 226);
+            btn_Home.Location = new Point(3, 225);
             btn_Home.Name = "btn_Home";
             btn_Home.NameFacilitie = "Trang chủ";
-            btn_Home.Size = new Size(329, 100);
+            btn_Home.Size = new Size(345, 100);
             btn_Home.TabIndex = 2;
             btn_Home.Click += btn_Home_Click;
             btn_Home.MouseLeave += Change_MouseLeave;

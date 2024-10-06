@@ -12,6 +12,7 @@ namespace main_form.FormApp.UserController
 {
     public partial class ButtonFacilities_mainForm : UserControl
     {
+
         private string nameFacilities;
         [Category("Custom Properties")]
         public string NameFacilitie
@@ -47,6 +48,14 @@ namespace main_form.FormApp.UserController
                 panel1.BackColor = colorFacilities;
             }
         }
+
+        private Color colorChange;
+        public Color ColorChange  // Thuộc tính để lưu màu hover từ form cha
+        {
+            get { return colorChange; }
+            set { colorChange = value; }
+        }
+
         public ButtonFacilities_mainForm()
         {
             InitializeComponent();
@@ -55,6 +64,41 @@ namespace main_form.FormApp.UserController
             nameFacilities = lab_Name.Text;
             imageFacilities = pic_facilities.Image;
             colorFacilities = panel1.BackColor;
+
+            //panel1.Click += UserControl_Click;
+            //pic_facilities.Click += UserControl_Click;
+            //lab_Name.Click += UserControl_Click;
+
+            panel1.Click += UserControl_Click;
+            pic_facilities.Click += UserControl_Click;
+            lab_Name.Click += UserControl_Click;
+
+            this.MouseHover += UserControl_Hover;
+            panel1.MouseHover += UserControl_Hover;
+            pic_facilities.MouseHover += UserControl_Hover;
+            lab_Name.MouseHover += UserControl_Hover;
+
+            this.MouseLeave += UserControl_Leave;
+            panel1.MouseLeave += UserControl_Leave;
+            pic_facilities.MouseLeave += UserControl_Leave;
+            lab_Name.MouseLeave += UserControl_Leave;
+
+        }
+
+        private void UserControl_Click(object sender, EventArgs e)
+        {
+            // Kích hoạt sự kiện Click của UserControl
+            this.OnClick(e);  // Kích hoạt sự kiện Click mặc định của UserControl
+        }
+
+        private void UserControl_Hover(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Aqua;
+        }
+
+        private void UserControl_Leave(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Transparent;
         }
     }
 }

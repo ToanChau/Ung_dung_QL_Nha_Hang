@@ -37,19 +37,20 @@ namespace main_form
 
         private void Change_MouseHover(object sender, EventArgs e)
         {
-            ButtonFacilities_mainForm btn = (ButtonFacilities_mainForm)sender;
-            btn.BackColor = Color.Blue;
+            //ButtonFacilities_mainForm btn = (ButtonFacilities_mainForm)sender;
+            //btn.ColorChange = Color.Blue;
         }
 
         private void Change_MouseLeave(object sender, EventArgs e)
         {
-            ButtonFacilities_mainForm btn = (ButtonFacilities_mainForm)sender;
-            btn.BackColor = Color.Transparent;
+            //ButtonFacilities_mainForm btn = (ButtonFacilities_mainForm)sender;
+            //btn.BackColor = Color.Transparent;
         }
 
         private void btn_Home_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("h", "j");
+            ButtonFacilities_mainForm btn = (ButtonFacilities_mainForm)sender;
+            btn.BackColor = Color.Blue;
         }
     }
 }
