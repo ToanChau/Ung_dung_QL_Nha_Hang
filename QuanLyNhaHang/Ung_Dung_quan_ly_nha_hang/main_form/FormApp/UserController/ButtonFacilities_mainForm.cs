@@ -56,6 +56,16 @@ namespace main_form.FormApp.UserController
             set { colorChange = value; }
         }
 
+        private int iD;
+        public int ID
+        {
+            get { return ID; }
+            set
+            {
+                iD = ID;
+            }
+        }
+
         public ButtonFacilities_mainForm()
         {
             InitializeComponent();

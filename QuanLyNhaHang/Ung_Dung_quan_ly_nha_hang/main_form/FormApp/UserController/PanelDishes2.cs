@@ -48,6 +48,16 @@ namespace main_form.FormApp.UserController
                 pic_imageFood.Image = imageFood;
             }
         }
+
+        private int iD;
+        public int ID
+        {
+            get { return ID; }
+            set
+            {
+                iD = ID;
+            }
+        }
         public PanelDishes2()
         {
             InitializeComponent();
@@ -56,11 +66,37 @@ namespace main_form.FormApp.UserController
             priceFoodText = "price food";
             imageFood = pic_imageFood.Image;
             setUpBorderR();
+
+            pan_background.Click += UserControl_Click;
+            lab_nameFood.Click += UserControl_Click;
+            lab_foodPrice.Click += UserControl_Click;
+
+            this.MouseHover += UserControl_Hover;
+            pan_background.MouseHover += UserControl_Hover;
+
+            this.MouseLeave += UserControl_Leave;
+            pan_background.MouseLeave += UserControl_Leave;
         }
 
         private void setUpBorderR()
         {
             setUpBR.setUpBorderRadius(this, "pan_background", 30, 30);
+        }
+
+        private void UserControl_Click(object sender, EventArgs e)
+        {
+            // Kích hoạt sự kiện Click của UserControl
+            this.OnClick(e);  // Kích hoạt sự kiện Click mặc định của UserControl
+        }
+
+        private void UserControl_Hover(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Aqua;
+        }
+
+        private void UserControl_Leave(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Transparent;
         }
     }
 }

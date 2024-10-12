@@ -47,7 +47,7 @@ namespace main_form.work
                 picbox_foodImage.Image = imageFood;
             }
         }
-       
+
         private Color panelFoodColor;
         [Category("Custom Properties")]
         public Color PanelFoodColor
@@ -58,13 +58,23 @@ namespace main_form.work
                 panelFoodColor = value;
                 pan_background.BackColor = value;
             }
-        } 
+        }
+
+        private int iD;
+        public int ID
+        {
+            get { return ID; }
+            set
+            {
+                iD = ID;
+            }
+        }
         public PanelDishes()
         {
             InitializeComponent();
             //màu background
             this.BackColor = Color.Transparent;
-            
+
             //set up các thuộc tính cơ bản
             nameFoodText = "name food";
             priceFoodText = "price food";
@@ -73,11 +83,36 @@ namespace main_form.work
 
             //vẽ border radius
             setUpBorderR();
+            pan_background.Click += UserControl_Click;
+            lab_foodName.Click += UserControl_Click;
+            lab_foodPrice.Click += UserControl_Click;
+
+            this.MouseHover += UserControl_Hover;
+            pan_background.MouseHover += UserControl_Hover;
+
+            this.MouseLeave += UserControl_Leave;
+            pan_background.MouseLeave += UserControl_Leave;
         }
 
         private void setUpBorderR()
         {
             setUpBR.setUpBorderRadius(this, "pan_background", 30, 30);
+        }
+
+        private void UserControl_Click(object sender, EventArgs e)
+        {
+            // Kích hoạt sự kiện Click của UserControl
+            this.OnClick(e);  // Kích hoạt sự kiện Click mặc định của UserControl
+        }
+
+        private void UserControl_Hover(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Aqua;
+        }
+
+        private void UserControl_Leave(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Transparent;
         }
     }
 }
