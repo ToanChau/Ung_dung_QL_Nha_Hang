@@ -34,21 +34,20 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Main));
             pan_order = new Panel();
             pan_function = new Panel();
-            btn_Accounting = new FormApp.UserController.ButtonFacilities_mainForm();
-            btn_Staff = new FormApp.UserController.ButtonFacilities_mainForm();
-            btn_Menu = new FormApp.UserController.ButtonFacilities_mainForm();
-            btn_Home = new FormApp.UserController.ButtonFacilities_mainForm();
+            btn_Ingridients = new Label();
+            btn_Accounting = new Label();
+            btn_Staff = new Label();
+            btn_Menu = new Label();
+            btn_Home = new Label();
+            pictureBox1 = new PictureBox();
             flowLayoutPanel6 = new FlowLayoutPanel();
             img_User = new PictureBox();
             lab_NameUser = new Label();
             lab_Log = new Label();
-            pictureBox2 = new PictureBox();
-            pictureBox1 = new PictureBox();
             pan_function.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             flowLayoutPanel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)img_User).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // pan_order
@@ -64,82 +63,105 @@
             // 
             pan_function.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             pan_function.BackColor = Color.SteelBlue;
+            pan_function.Controls.Add(btn_Ingridients);
             pan_function.Controls.Add(btn_Accounting);
             pan_function.Controls.Add(btn_Staff);
             pan_function.Controls.Add(btn_Menu);
             pan_function.Controls.Add(btn_Home);
-            pan_function.Controls.Add(flowLayoutPanel6);
-            pan_function.Controls.Add(pictureBox2);
             pan_function.Controls.Add(pictureBox1);
             pan_function.Location = new Point(1, 0);
             pan_function.Name = "pan_function";
             pan_function.Size = new Size(348, 995);
             pan_function.TabIndex = 1;
             // 
+            // btn_Ingridients
+            // 
+            btn_Ingridients.Font = new Font("Segoe UI", 19.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_Ingridients.ForeColor = SystemColors.ControlText;
+            btn_Ingridients.Image = Properties.Resources.Home;
+            btn_Ingridients.ImageAlign = ContentAlignment.MiddleLeft;
+            btn_Ingridients.Location = new Point(3, 383);
+            btn_Ingridients.Name = "btn_Ingridients";
+            btn_Ingridients.RightToLeft = RightToLeft.No;
+            btn_Ingridients.Size = new Size(342, 93);
+            btn_Ingridients.TabIndex = 1;
+            btn_Ingridients.Text = "Nguyên liệu";
+            btn_Ingridients.TextAlign = ContentAlignment.MiddleRight;
+            btn_Ingridients.UseMnemonic = false;
+            // 
             // btn_Accounting
             // 
-            btn_Accounting.AutoSize = true;
-            btn_Accounting.BackColor = Color.Transparent;
-            btn_Accounting.ColorChange = Color.Empty;
-            btn_Accounting.ColorFacilities = Color.Transparent;
-            btn_Accounting.Cursor = Cursors.Hand;
-            btn_Accounting.ImageFacilities = (Image)resources.GetObject("btn_Accounting.ImageFacilities");
-            btn_Accounting.Location = new Point(3, 544);
+            btn_Accounting.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_Accounting.ForeColor = SystemColors.ControlText;
+            btn_Accounting.Image = Properties.Resources.Acounting;
+            btn_Accounting.ImageAlign = ContentAlignment.MiddleLeft;
+            btn_Accounting.Location = new Point(3, 573);
             btn_Accounting.Name = "btn_Accounting";
-            btn_Accounting.NameFacilitie = "Thống kê";
-            btn_Accounting.Size = new Size(345, 100);
-            btn_Accounting.TabIndex = 2;
-            btn_Accounting.MouseLeave += Change_MouseLeave;
-            btn_Accounting.MouseHover += Change_MouseHover;
+            btn_Accounting.RightToLeft = RightToLeft.No;
+            btn_Accounting.Size = new Size(342, 93);
+            btn_Accounting.TabIndex = 1;
+            btn_Accounting.Text = "Thống kê";
+            btn_Accounting.TextAlign = ContentAlignment.MiddleRight;
+            btn_Accounting.UseMnemonic = false;
             // 
             // btn_Staff
             // 
-            btn_Staff.AutoSize = true;
-            btn_Staff.BackColor = Color.Transparent;
-            btn_Staff.ColorChange = Color.Empty;
-            btn_Staff.ColorFacilities = Color.Transparent;
-            btn_Staff.Cursor = Cursors.Hand;
-            btn_Staff.ImageFacilities = (Image)resources.GetObject("btn_Staff.ImageFacilities");
-            btn_Staff.Location = new Point(3, 438);
+            btn_Staff.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_Staff.ForeColor = SystemColors.ControlText;
+            btn_Staff.Image = Properties.Resources.staff;
+            btn_Staff.ImageAlign = ContentAlignment.MiddleLeft;
+            btn_Staff.Location = new Point(3, 478);
             btn_Staff.Name = "btn_Staff";
-            btn_Staff.NameFacilitie = "Nhân viên";
-            btn_Staff.Size = new Size(345, 100);
-            btn_Staff.TabIndex = 2;
-            btn_Staff.MouseLeave += Change_MouseLeave;
-            btn_Staff.MouseHover += Change_MouseHover;
+            btn_Staff.RightToLeft = RightToLeft.No;
+            btn_Staff.Size = new Size(342, 93);
+            btn_Staff.TabIndex = 1;
+            btn_Staff.Text = "Nhân viên";
+            btn_Staff.TextAlign = ContentAlignment.MiddleRight;
+            btn_Staff.UseMnemonic = false;
             // 
             // btn_Menu
             // 
-            btn_Menu.AutoSize = true;
-            btn_Menu.BackColor = Color.Transparent;
-            btn_Menu.ColorChange = Color.Empty;
-            btn_Menu.ColorFacilities = Color.Transparent;
-            btn_Menu.Cursor = Cursors.Hand;
-            btn_Menu.ImageFacilities = (Image)resources.GetObject("btn_Menu.ImageFacilities");
-            btn_Menu.Location = new Point(3, 332);
+            btn_Menu.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_Menu.ForeColor = SystemColors.ControlText;
+            btn_Menu.Image = Properties.Resources.menu;
+            btn_Menu.ImageAlign = ContentAlignment.MiddleLeft;
+            btn_Menu.Location = new Point(4, 287);
             btn_Menu.Name = "btn_Menu";
-            btn_Menu.NameFacilitie = "Thực đơn";
-            btn_Menu.Size = new Size(345, 100);
-            btn_Menu.TabIndex = 2;
-            btn_Menu.MouseLeave += Change_MouseLeave;
-            btn_Menu.MouseHover += Change_MouseHover;
+            btn_Menu.RightToLeft = RightToLeft.No;
+            btn_Menu.Size = new Size(342, 93);
+            btn_Menu.TabIndex = 1;
+            btn_Menu.Text = "Thực đơn";
+            btn_Menu.TextAlign = ContentAlignment.MiddleRight;
+            btn_Menu.UseMnemonic = false;
             // 
             // btn_Home
             // 
-            btn_Home.AutoSize = true;
-            btn_Home.BackColor = Color.Transparent;
-            btn_Home.ColorChange = Color.Empty;
-            btn_Home.ColorFacilities = Color.Transparent;
-            btn_Home.Cursor = Cursors.Hand;
-            btn_Home.ImageFacilities = (Image)resources.GetObject("btn_Home.ImageFacilities");
-            btn_Home.Location = new Point(3, 225);
+            btn_Home.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_Home.ForeColor = SystemColors.ControlText;
+            btn_Home.Image = Properties.Resources.Home;
+            btn_Home.ImageAlign = ContentAlignment.MiddleLeft;
+            btn_Home.Location = new Point(3, 192);
             btn_Home.Name = "btn_Home";
-            btn_Home.NameFacilitie = "Trang chủ";
-            btn_Home.Size = new Size(345, 100);
-            btn_Home.TabIndex = 2;
-            btn_Home.Click += btn_Home_Click;
-            btn_Home.MouseLeave += Change_MouseLeave;
-            btn_Home.MouseHover += Change_MouseHover;
+            btn_Home.RightToLeft = RightToLeft.No;
+            btn_Home.Size = new Size(342, 93);
+            btn_Home.TabIndex = 1;
+            btn_Home.Text = "Trang chủ";
+            btn_Home.TextAlign = ContentAlignment.MiddleRight;
+            btn_Home.UseMnemonic = false;
+            btn_Home.Click += btn_Home_Click_1;
+            btn_Home.MouseLeave += btn_Home_MouseLeave;
+            btn_Home.MouseHover += btn_Home_MouseHover;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.InitialImage = (Image)resources.GetObject("pictureBox1.InitialImage");
+            pictureBox1.Location = new Point(72, 3);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(137, 159);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
             // 
             // flowLayoutPanel6
             // 
@@ -191,28 +213,6 @@
             lab_Log.Text = "Đăng xuất";
             lab_Log.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = Properties.Resources.VNFlat;
-            pictureBox2.InitialImage = Properties.Resources.staff;
-            pictureBox2.Location = new Point(109, 137);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(65, 34);
-            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox2.TabIndex = 0;
-            pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.InitialImage = (Image)resources.GetObject("pictureBox1.InitialImage");
-            pictureBox1.Location = new Point(72, 3);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(137, 159);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
-            // 
             // Form_Main
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -226,11 +226,9 @@
             Text = "Form1";
             WindowState = FormWindowState.Maximized;
             pan_function.ResumeLayout(false);
-            pan_function.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             flowLayoutPanel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)img_User).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -242,10 +240,10 @@
         private PictureBox img_User;
         private Label lab_NameUser;
         private Label lab_Log;
-        private PictureBox pictureBox2;
-        private FormApp.UserController.ButtonFacilities_mainForm btn_Accounting;
-        private FormApp.UserController.ButtonFacilities_mainForm btn_Staff;
-        private FormApp.UserController.ButtonFacilities_mainForm btn_Menu;
-        private FormApp.UserController.ButtonFacilities_mainForm btn_Home;
+        private Label btn_Home;
+        private Label btn_Accounting;
+        private Label btn_Staff;
+        private Label btn_Menu;
+        private Label btn_Ingridients;
     }
 }

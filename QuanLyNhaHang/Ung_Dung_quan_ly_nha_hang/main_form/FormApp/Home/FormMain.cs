@@ -23,16 +23,10 @@ namespace main_form
             //vẽ radius
             pan_function.Paint += dpanel.DrawRight;
 
-            //pw.CurrentChildForm = new FormOrder();
-            //pw.OpenChildForm(pw.CurrentChildForm, pan_order);
+            pw.CurrentChildForm = new FormOrder();
+            pw.OpenChildForm(pw.CurrentChildForm, pan_order);
 
-            uw.OpenPanelForUserCtrl(FormAddFoodToMenu.Instance, pan_order);
-
-
-            //setUpHoverPanel(Fpanel_Home);
-            //setUpHoverPanel(Fpanel_Menu);
-            //setUpHoverPanel(Fpanel_Staff);
-            //setUpHoverPanel(Fpanel_Account);
+            //uw.OpenPanelForUserCtrl(FormAddFoodToMenu.Instance, pan_order);
         }
 
         private void Change_MouseHover(object sender, EventArgs e)
@@ -51,6 +45,21 @@ namespace main_form
         {
             ButtonFacilities_mainForm btn = (ButtonFacilities_mainForm)sender;
             btn.BackColor = Color.Blue;
+        }
+
+        private void btn_Home_Click_1(object sender, EventArgs e)
+        {
+            MessageBox.Show("ssss");
+        }
+
+        private void btn_Home_MouseHover(object sender, EventArgs e)
+        {
+            btn_Home.BackColor = Color.Aqua;
+        }
+
+        private void btn_Home_MouseLeave(object sender, EventArgs e)
+        {
+            btn_Home.BackColor = Color.Transparent;
         }
     }
 }
