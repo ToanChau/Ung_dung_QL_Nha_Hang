@@ -97,6 +97,7 @@
             btn_table2.Size = new Size(120, 120);
             btn_table2.TabIndex = 16;
             btn_table2.Text = "2";
+            btn_table2.Click += btn_table2_Click;
             // 
             // btn_table3
             // 
@@ -113,6 +114,7 @@
             btn_table3.Size = new Size(120, 120);
             btn_table3.TabIndex = 15;
             btn_table3.Text = "3";
+            btn_table3.Click += btn_table3_Click;
             // 
             // btn_table4
             // 

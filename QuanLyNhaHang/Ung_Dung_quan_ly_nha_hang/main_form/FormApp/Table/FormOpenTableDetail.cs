@@ -1,4 +1,5 @@
 ﻿using Guna.UI2.WinForms;
+using main_form.OOP;
 using main_form.work;
 using System;
 using System.Collections.Generic;
@@ -26,9 +27,19 @@ namespace main_form.FormApp
                 return _instance;
             }
         }
+
         public FormOpenTableDetail()
         {
             InitializeComponent();
+        }
+
+        tableInfor tbl;
+
+        public FormOpenTableDetail(tableInfor tbl)
+        {
+            InitializeComponent();
+            this.tbl = tbl;
+            lab_NameTable.Text = tbl.Name;
         }
 
         private void FormOpenTableDetail_Load(object sender, EventArgs e)

@@ -41,5 +41,11 @@ namespace main_form
             setUpBR.setUpBorderRadius(this, "btn", 90, 90);
 
         }
+
+        private void openTable_click(object sender, EventArgs e)
+        {
+            UserControlWork uw = new UserControlWork();
+            //uw.OpenPanelForUserCtrl(new )
+        }
     }
 }

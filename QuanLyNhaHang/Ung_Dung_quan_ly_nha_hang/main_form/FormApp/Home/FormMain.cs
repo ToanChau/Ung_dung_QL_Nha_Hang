@@ -25,41 +25,29 @@ namespace main_form
 
             pw.CurrentChildForm = new FormOrder();
             pw.OpenChildForm(pw.CurrentChildForm, pan_order);
-
-            //uw.OpenPanelForUserCtrl(FormAddFoodToMenu.Instance, pan_order);
         }
 
         private void Change_MouseHover(object sender, EventArgs e)
         {
-            //ButtonFacilities_mainForm btn = (ButtonFacilities_mainForm)sender;
-            //btn.ColorChange = Color.Blue;
+            Label btn = (Label)sender;
+            btn.BackColor = Color.Aqua;
         }
 
         private void Change_MouseLeave(object sender, EventArgs e)
         {
-            //ButtonFacilities_mainForm btn = (ButtonFacilities_mainForm)sender;
-            //btn.BackColor = Color.Transparent;
+            Label btn = (Label)sender;
+            btn.BackColor = Color.Transparent;
         }
 
         private void btn_Home_Click(object sender, EventArgs e)
         {
-            ButtonFacilities_mainForm btn = (ButtonFacilities_mainForm)sender;
-            btn.BackColor = Color.Blue;
+            pw.CurrentChildForm = new FormOrder();
+            pw.OpenChildForm(pw.CurrentChildForm, pan_order);
         }
 
-        private void btn_Home_Click_1(object sender, EventArgs e)
+        private void btn_Menu_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("ssss");
-        }
-
-        private void btn_Home_MouseHover(object sender, EventArgs e)
-        {
-            btn_Home.BackColor = Color.Aqua;
-        }
-
-        private void btn_Home_MouseLeave(object sender, EventArgs e)
-        {
-            btn_Home.BackColor = Color.Transparent;
+                       
         }
     }
 }

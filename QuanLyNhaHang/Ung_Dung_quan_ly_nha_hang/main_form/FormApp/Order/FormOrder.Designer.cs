@@ -64,6 +64,6 @@
 
         #endregion
         DrawPanel dpanel = new DrawPanel();
-        private SplitContainer SplPCon_Order;
+        public SplitContainer SplPCon_Order;
     }
 }

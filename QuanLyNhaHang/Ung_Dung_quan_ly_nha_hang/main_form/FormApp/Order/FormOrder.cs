@@ -8,7 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using main_form.FormApp;
+using main_form.FormApp.Home;
+using main_form.FormApp.Menu;
 using main_form.FormApp.Pay;
+using main_form.OOP;
 using main_form.work;
 using QRCoder;
 
@@ -25,9 +28,12 @@ namespace main_form
 
         private void setUpOrder()
         {
+            
             UserControlWork uw = new UserControlWork();
-            uw.OpenPanelForUserCtrl(Formtables.Instance, SplPCon_Order.Panel1);
-            uw.OpenPanelForUserCtrl(FormPayQR.Instance, SplPCon_Order.Panel2);
+            uw.OpenPanelForUserCtrl(new Formtables(this), SplPCon_Order.Panel1);
+            uw.OpenPanelForUserCtrl(new FormEmpty(), SplPCon_Order.Panel2);
+
+
         }
     }
 }

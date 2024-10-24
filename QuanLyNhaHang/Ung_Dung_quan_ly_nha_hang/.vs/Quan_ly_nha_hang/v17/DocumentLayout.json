@@ -3,15 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\Desktop\\hoc ki 1 nam 3\\he_quan_tri_csdl\\Do_an_mon_hoc\\Ung_dung_QL_Nha_Hang\\QuanLyNhaHang\\Ung_Dung_quan_ly_nha_hang\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D62D92F6-356F-4FDB-B6F1-B7231A58F0C1}|main_form\\main_form.csproj|c:\\users\\admin\\desktop\\hoc ki 1 nam 3\\he_quan_tri_csdl\\do_an_mon_hoc\\ung_dung_ql_nha_hang\\quanlynhahang\\ung_dung_quan_ly_nha_hang\\main_form\\formapp\\table\\formopentabledetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D92F6-356F-4FDB-B6F1-B7231A58F0C1}|main_form\\main_form.csproj|solutionrelative:main_form\\formapp\\table\\formopentabledetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D92F6-356F-4FDB-B6F1-B7231A58F0C1}|main_form\\main_form.csproj|c:\\users\\admin\\desktop\\hoc ki 1 nam 3\\he_quan_tri_csdl\\do_an_mon_hoc\\ung_dung_ql_nha_hang\\quanlynhahang\\ung_dung_quan_ly_nha_hang\\main_form\\formapp\\table\\formtables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D92F6-356F-4FDB-B6F1-B7231A58F0C1}|main_form\\main_form.csproj|solutionrelative:main_form\\formapp\\table\\formtables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D92F6-356F-4FDB-B6F1-B7231A58F0C1}|main_form\\main_form.csproj|c:\\users\\admin\\desktop\\hoc ki 1 nam 3\\he_quan_tri_csdl\\do_an_mon_hoc\\ung_dung_ql_nha_hang\\quanlynhahang\\ung_dung_quan_ly_nha_hang\\main_form\\formapp\\order\\formorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D92F6-356F-4FDB-B6F1-B7231A58F0C1}|main_form\\main_form.csproj|solutionrelative:main_form\\formapp\\order\\formorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D62D92F6-356F-4FDB-B6F1-B7231A58F0C1}|main_form\\main_form.csproj|c:\\users\\admin\\desktop\\hoc ki 1 nam 3\\he_quan_tri_csdl\\do_an_mon_hoc\\ung_dung_ql_nha_hang\\quanlynhahang\\ung_dung_quan_ly_nha_hang\\main_form\\formapp\\home\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D62D92F6-356F-4FDB-B6F1-B7231A58F0C1}|main_form\\main_form.csproj|solutionrelative:main_form\\formapp\\home\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D62D92F6-356F-4FDB-B6F1-B7231A58F0C1}|main_form\\main_form.csproj|c:\\users\\admin\\desktop\\hoc ki 1 nam 3\\he_quan_tri_csdl\\do_an_mon_hoc\\ung_dung_ql_nha_hang\\quanlynhahang\\ung_dung_quan_ly_nha_hang\\main_form\\work\\usercontrolwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D62D92F6-356F-4FDB-B6F1-B7231A58F0C1}|main_form\\main_form.csproj|solutionrelative:main_form\\work\\usercontrolwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D62D92F6-356F-4FDB-B6F1-B7231A58F0C1}|main_form\\main_form.csproj|C:\\Users\\ADMIN\\Desktop\\hoc ki 1 nam 3\\he_quan_tri_csdl\\Do_an_mon_hoc\\Ung_dung_QL_Nha_Hang\\QuanLyNhaHang\\Ung_Dung_quan_ly_nha_hang\\main_form\\formapp\\order\\formdetailtableorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D62D92F6-356F-4FDB-B6F1-B7231A58F0C1}|main_form\\main_form.csproj|solutionrelative:main_form\\formapp\\order\\formdetailtableorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D62D92F6-356F-4FDB-B6F1-B7231A58F0C1}|main_form\\main_form.csproj|c:\\users\\admin\\desktop\\hoc ki 1 nam 3\\he_quan_tri_csdl\\do_an_mon_hoc\\ung_dung_ql_nha_hang\\quanlynhahang\\ung_dung_quan_ly_nha_hang\\main_form\\formapp\\home\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D62D92F6-356F-4FDB-B6F1-B7231A58F0C1}|main_form\\main_form.csproj|c:\\users\\admin\\desktop\\hoc ki 1 nam 3\\he_quan_tri_csdl\\do_an_mon_hoc\\ung_dung_ql_nha_hang\\quanlynhahang\\ung_dung_quan_ly_nha_hang\\main_form\\formapp\\order\\formdetailtableorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D92F6-356F-4FDB-B6F1-B7231A58F0C1}|main_form\\main_form.csproj|solutionrelative:main_form\\formapp\\order\\formdetailtableorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D92F6-356F-4FDB-B6F1-B7231A58F0C1}|main_form\\main_form.csproj|C:\\Users\\ADMIN\\Desktop\\hoc ki 1 nam 3\\he_quan_tri_csdl\\Do_an_mon_hoc\\Ung_dung_QL_Nha_Hang\\QuanLyNhaHang\\Ung_Dung_quan_ly_nha_hang\\main_form\\formapp\\home\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D62D92F6-356F-4FDB-B6F1-B7231A58F0C1}|main_form\\main_form.csproj|solutionrelative:main_form\\formapp\\home\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -22,21 +38,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 360,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserControlWork.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\hoc ki 1 nam 3\\he_quan_tri_csdl\\Do_an_mon_hoc\\Ung_dung_QL_Nha_Hang\\QuanLyNhaHang\\Ung_Dung_quan_ly_nha_hang\\main_form\\work\\UserControlWork.cs",
-              "RelativeDocumentMoniker": "main_form\\work\\UserControlWork.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\hoc ki 1 nam 3\\he_quan_tri_csdl\\Do_an_mon_hoc\\Ung_dung_QL_Nha_Hang\\QuanLyNhaHang\\Ung_Dung_quan_ly_nha_hang\\main_form\\work\\UserControlWork.cs",
-              "RelativeToolTip": "main_form\\work\\UserControlWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T14:42:30.134Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -52,26 +55,90 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FormOpenTableDetail.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\hoc ki 1 nam 3\\he_quan_tri_csdl\\Do_an_mon_hoc\\Ung_dung_QL_Nha_Hang\\QuanLyNhaHang\\Ung_Dung_quan_ly_nha_hang\\main_form\\FormApp\\Table\\FormOpenTableDetail.cs",
+              "RelativeDocumentMoniker": "main_form\\FormApp\\Table\\FormOpenTableDetail.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\hoc ki 1 nam 3\\he_quan_tri_csdl\\Do_an_mon_hoc\\Ung_dung_QL_Nha_Hang\\QuanLyNhaHang\\Ung_Dung_quan_ly_nha_hang\\main_form\\FormApp\\Table\\FormOpenTableDetail.cs",
+              "RelativeToolTip": "main_form\\FormApp\\Table\\FormOpenTableDetail.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAjwCkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T05:08:34.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormOrder.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\hoc ki 1 nam 3\\he_quan_tri_csdl\\Do_an_mon_hoc\\Ung_dung_QL_Nha_Hang\\QuanLyNhaHang\\Ung_Dung_quan_ly_nha_hang\\main_form\\FormApp\\Order\\FormOrder.cs",
+              "RelativeDocumentMoniker": "main_form\\FormApp\\Order\\FormOrder.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\hoc ki 1 nam 3\\he_quan_tri_csdl\\Do_an_mon_hoc\\Ung_dung_QL_Nha_Hang\\QuanLyNhaHang\\Ung_Dung_quan_ly_nha_hang\\main_form\\FormApp\\Order\\FormOrder.cs",
+              "RelativeToolTip": "main_form\\FormApp\\Order\\FormOrder.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T04:48:41.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormTables.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\hoc ki 1 nam 3\\he_quan_tri_csdl\\Do_an_mon_hoc\\Ung_dung_QL_Nha_Hang\\QuanLyNhaHang\\Ung_Dung_quan_ly_nha_hang\\main_form\\FormApp\\Table\\FormTables.cs",
+              "RelativeDocumentMoniker": "main_form\\FormApp\\Table\\FormTables.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\hoc ki 1 nam 3\\he_quan_tri_csdl\\Do_an_mon_hoc\\Ung_dung_QL_Nha_Hang\\QuanLyNhaHang\\Ung_Dung_quan_ly_nha_hang\\main_form\\FormApp\\Table\\FormTables.cs",
+              "RelativeToolTip": "main_form\\FormApp\\Table\\FormTables.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAqwDYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T04:46:00.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormDetailTableOrder.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\hoc ki 1 nam 3\\he_quan_tri_csdl\\Do_an_mon_hoc\\Ung_dung_QL_Nha_Hang\\QuanLyNhaHang\\Ung_Dung_quan_ly_nha_hang\\main_form\\FormApp\\Order\\FormDetailTableOrder.cs",
+              "RelativeDocumentMoniker": "main_form\\FormApp\\Order\\FormDetailTableOrder.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\hoc ki 1 nam 3\\he_quan_tri_csdl\\Do_an_mon_hoc\\Ung_dung_QL_Nha_Hang\\QuanLyNhaHang\\Ung_Dung_quan_ly_nha_hang\\main_form\\FormApp\\Order\\FormDetailTableOrder.cs",
+              "RelativeToolTip": "main_form\\FormApp\\Order\\FormDetailTableOrder.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwC8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T04:19:27.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormDetailTableOrder.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\hoc ki 1 nam 3\\he_quan_tri_csdl\\Do_an_mon_hoc\\Ung_dung_QL_Nha_Hang\\QuanLyNhaHang\\Ung_Dung_quan_ly_nha_hang\\main_form\\FormApp\\Order\\FormDetailTableOrder.cs",
+              "RelativeDocumentMoniker": "main_form\\FormApp\\Order\\FormDetailTableOrder.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\hoc ki 1 nam 3\\he_quan_tri_csdl\\Do_an_mon_hoc\\Ung_dung_QL_Nha_Hang\\QuanLyNhaHang\\Ung_Dung_quan_ly_nha_hang\\main_form\\FormApp\\Order\\FormDetailTableOrder.cs [Design]",
+              "RelativeToolTip": "main_form\\FormApp\\Order\\FormDetailTableOrder.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T04:19:20.496Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "FormMain.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\hoc ki 1 nam 3\\he_quan_tri_csdl\\Do_an_mon_hoc\\Ung_dung_QL_Nha_Hang\\QuanLyNhaHang\\Ung_Dung_quan_ly_nha_hang\\main_form\\FormApp\\Home\\FormMain.cs",
               "RelativeDocumentMoniker": "main_form\\FormApp\\Home\\FormMain.cs",
               "ToolTip": "C:\\Users\\ADMIN\\Desktop\\hoc ki 1 nam 3\\he_quan_tri_csdl\\Do_an_mon_hoc\\Ung_dung_QL_Nha_Hang\\QuanLyNhaHang\\Ung_Dung_quan_ly_nha_hang\\main_form\\FormApp\\Home\\FormMain.cs",
               "RelativeToolTip": "main_form\\FormApp\\Home\\FormMain.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAuwDYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwDEAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T14:37:48.863Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "FormMain.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\hoc ki 1 nam 3\\he_quan_tri_csdl\\Do_an_mon_hoc\\Ung_dung_QL_Nha_Hang\\QuanLyNhaHang\\Ung_Dung_quan_ly_nha_hang\\main_form\\FormApp\\Home\\FormMain.cs",
               "RelativeDocumentMoniker": "main_form\\FormApp\\Home\\FormMain.cs",
               "ToolTip": "C:\\Users\\ADMIN\\Desktop\\hoc ki 1 nam 3\\he_quan_tri_csdl\\Do_an_mon_hoc\\Ung_dung_QL_Nha_Hang\\QuanLyNhaHang\\Ung_Dung_quan_ly_nha_hang\\main_form\\FormApp\\Home\\FormMain.cs [Design]",
               "RelativeToolTip": "main_form\\FormApp\\Home\\FormMain.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T14:28:53.417Z",
+              "WhenOpened": "2024-10-23T04:16:53.911Z",
               "EditorCaption": " [Design]"
             }
           ]

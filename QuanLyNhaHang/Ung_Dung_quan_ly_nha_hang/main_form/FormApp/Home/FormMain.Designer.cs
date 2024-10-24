@@ -80,7 +80,7 @@
             btn_Ingridients.ForeColor = SystemColors.ControlText;
             btn_Ingridients.Image = Properties.Resources.Home;
             btn_Ingridients.ImageAlign = ContentAlignment.MiddleLeft;
-            btn_Ingridients.Location = new Point(3, 383);
+            btn_Ingridients.Location = new Point(3, 385);
             btn_Ingridients.Name = "btn_Ingridients";
             btn_Ingridients.RightToLeft = RightToLeft.No;
             btn_Ingridients.Size = new Size(342, 93);
@@ -88,6 +88,8 @@
             btn_Ingridients.Text = "Nguyên liệu";
             btn_Ingridients.TextAlign = ContentAlignment.MiddleRight;
             btn_Ingridients.UseMnemonic = false;
+            btn_Ingridients.MouseLeave += Change_MouseLeave;
+            btn_Ingridients.MouseHover += Change_MouseHover;
             // 
             // btn_Accounting
             // 
@@ -95,7 +97,7 @@
             btn_Accounting.ForeColor = SystemColors.ControlText;
             btn_Accounting.Image = Properties.Resources.Acounting;
             btn_Accounting.ImageAlign = ContentAlignment.MiddleLeft;
-            btn_Accounting.Location = new Point(3, 573);
+            btn_Accounting.Location = new Point(3, 579);
             btn_Accounting.Name = "btn_Accounting";
             btn_Accounting.RightToLeft = RightToLeft.No;
             btn_Accounting.Size = new Size(342, 93);
@@ -103,6 +105,8 @@
             btn_Accounting.Text = "Thống kê";
             btn_Accounting.TextAlign = ContentAlignment.MiddleRight;
             btn_Accounting.UseMnemonic = false;
+            btn_Accounting.MouseLeave += Change_MouseLeave;
+            btn_Accounting.MouseHover += Change_MouseHover;
             // 
             // btn_Staff
             // 
@@ -110,7 +114,7 @@
             btn_Staff.ForeColor = SystemColors.ControlText;
             btn_Staff.Image = Properties.Resources.staff;
             btn_Staff.ImageAlign = ContentAlignment.MiddleLeft;
-            btn_Staff.Location = new Point(3, 478);
+            btn_Staff.Location = new Point(3, 483);
             btn_Staff.Name = "btn_Staff";
             btn_Staff.RightToLeft = RightToLeft.No;
             btn_Staff.Size = new Size(342, 93);
@@ -118,6 +122,8 @@
             btn_Staff.Text = "Nhân viên";
             btn_Staff.TextAlign = ContentAlignment.MiddleRight;
             btn_Staff.UseMnemonic = false;
+            btn_Staff.MouseLeave += Change_MouseLeave;
+            btn_Staff.MouseHover += Change_MouseHover;
             // 
             // btn_Menu
             // 
@@ -125,7 +131,7 @@
             btn_Menu.ForeColor = SystemColors.ControlText;
             btn_Menu.Image = Properties.Resources.menu;
             btn_Menu.ImageAlign = ContentAlignment.MiddleLeft;
-            btn_Menu.Location = new Point(4, 287);
+            btn_Menu.Location = new Point(4, 289);
             btn_Menu.Name = "btn_Menu";
             btn_Menu.RightToLeft = RightToLeft.No;
             btn_Menu.Size = new Size(342, 93);
@@ -133,6 +139,9 @@
             btn_Menu.Text = "Thực đơn";
             btn_Menu.TextAlign = ContentAlignment.MiddleRight;
             btn_Menu.UseMnemonic = false;
+            btn_Menu.Click += btn_Menu_Click;
+            btn_Menu.MouseLeave += Change_MouseLeave;
+            btn_Menu.MouseHover += Change_MouseHover;
             // 
             // btn_Home
             // 
@@ -148,9 +157,9 @@
             btn_Home.Text = "Trang chủ";
             btn_Home.TextAlign = ContentAlignment.MiddleRight;
             btn_Home.UseMnemonic = false;
-            btn_Home.Click += btn_Home_Click_1;
-            btn_Home.MouseLeave += btn_Home_MouseLeave;
-            btn_Home.MouseHover += btn_Home_MouseHover;
+            btn_Home.Click += btn_Home_Click;
+            btn_Home.MouseLeave += Change_MouseLeave;
+            btn_Home.MouseHover += Change_MouseHover;
             // 
             // pictureBox1
             // 
