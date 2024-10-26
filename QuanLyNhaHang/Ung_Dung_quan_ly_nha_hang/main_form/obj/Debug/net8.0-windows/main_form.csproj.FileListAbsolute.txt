@@ -78,7 +78,6 @@ C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL
 C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.FormApp.FormOpenTableDetail.resources
 C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.FormPayBill.resources
 C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.FormApp.FormFoods.resources
-C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.work.PanelDishes.resources
 C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.FormApp.FormChangeInforCustomer.resources
 C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.FormApp.FormOptionPay.resources
 C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.FormApp.Pay.FormPayCard.resources
@@ -90,3 +89,4 @@ C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL
 C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.FormApp.Menu.FormAddFoodToMenu.resources
 C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.FormApp.UserController.ButtonFacilities_mainForm.resources
 C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.FormApp.Home.FormEmpty.resources
+C:\Users\ADMIN\Desktop\hoc ki 1 nam 3\he_quan_tri_csdl\Do_an_mon_hoc\Ung_dung_QL_Nha_Hang\QuanLyNhaHang\Ung_Dung_quan_ly_nha_hang\main_form\obj\Debug\net8.0-windows\main_form.FormApp.UserController.panelDishes.resources

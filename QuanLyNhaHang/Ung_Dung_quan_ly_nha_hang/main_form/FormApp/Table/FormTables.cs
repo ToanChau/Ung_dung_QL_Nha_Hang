@@ -52,7 +52,7 @@ namespace main_form
             tableInfor table = new tableInfor();
             table.Id = 2;
             table.Name = "Bàn 2";
-            work.OpenPanelForUserCtrl(new FormOpenTableDetail(table), f.SplPCon_Order.Panel2);
+            work.OpenPanelForUserCtrl(new FormDetailTableOrder(f,table), f.SplPCon_Order.Panel2);
 
         }
     }

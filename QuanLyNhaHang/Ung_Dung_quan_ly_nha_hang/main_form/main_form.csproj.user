@@ -49,14 +49,14 @@
     <Compile Update="FormApp\UserController\ButtonFacilities_mainForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="FormApp\UserController\panelDishes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="FormApp\UserController\PanelDishes2.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="OOP\ElipseControl.cs">
       <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="FormApp\UserController\PanelDishes.cs">
-      <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
 </Project>

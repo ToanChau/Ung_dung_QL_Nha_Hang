@@ -31,15 +31,15 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormDetailTableOrder));
             lab_NameTable = new Label();
             btn_openTable = new Panel();
-            label1 = new Label();
-            pictureBox1 = new PictureBox();
+            lab_openTable = new Label();
+            pbox_openTable = new PictureBox();
             btn_orderTable = new Panel();
-            label2 = new Label();
-            pictureBox2 = new PictureBox();
+            lab_order = new Label();
+            pbox_order = new PictureBox();
             btn_openTable.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pbox_openTable).BeginInit();
             btn_orderTable.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pbox_order).BeginInit();
             SuspendLayout();
             // 
             // lab_NameTable
@@ -56,70 +56,71 @@
             // btn_openTable
             // 
             btn_openTable.BackColor = Color.CornflowerBlue;
-            btn_openTable.Controls.Add(label1);
-            btn_openTable.Controls.Add(pictureBox1);
+            btn_openTable.Controls.Add(lab_openTable);
+            btn_openTable.Controls.Add(pbox_openTable);
             btn_openTable.Cursor = Cursors.Hand;
             btn_openTable.Location = new Point(164, 174);
             btn_openTable.Name = "btn_openTable";
             btn_openTable.Size = new Size(591, 87);
             btn_openTable.TabIndex = 5;
+            btn_openTable.Click += openTable_click;
             // 
-            // label1
+            // lab_openTable
             // 
-            label1.Font = new Font("Times New Roman", 28.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(246, 1);
-            label1.Name = "label1";
-            label1.Size = new Size(212, 85);
-            label1.TabIndex = 5;
-            label1.Text = "Mở bàn";
-            label1.TextAlign = ContentAlignment.MiddleCenter;
+            lab_openTable.Font = new Font("Times New Roman", 28.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lab_openTable.ForeColor = Color.White;
+            lab_openTable.Location = new Point(246, 1);
+            lab_openTable.Name = "lab_openTable";
+            lab_openTable.Size = new Size(212, 85);
+            lab_openTable.TabIndex = 5;
+            lab_openTable.Text = "Mở bàn";
+            lab_openTable.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // pictureBox1
+            // pbox_openTable
             // 
-            pictureBox1.ErrorImage = (Image)resources.GetObject("pictureBox1.ErrorImage");
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.InitialImage = (Image)resources.GetObject("pictureBox1.InitialImage");
-            pictureBox1.Location = new Point(132, 1);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(111, 84);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 4;
-            pictureBox1.TabStop = false;
+            pbox_openTable.ErrorImage = (Image)resources.GetObject("pbox_openTable.ErrorImage");
+            pbox_openTable.Image = (Image)resources.GetObject("pbox_openTable.Image");
+            pbox_openTable.InitialImage = (Image)resources.GetObject("pbox_openTable.InitialImage");
+            pbox_openTable.Location = new Point(132, 1);
+            pbox_openTable.Name = "pbox_openTable";
+            pbox_openTable.Size = new Size(111, 84);
+            pbox_openTable.SizeMode = PictureBoxSizeMode.Zoom;
+            pbox_openTable.TabIndex = 4;
+            pbox_openTable.TabStop = false;
             // 
             // btn_orderTable
             // 
             btn_orderTable.BackColor = Color.CornflowerBlue;
-            btn_orderTable.Controls.Add(label2);
-            btn_orderTable.Controls.Add(pictureBox2);
+            btn_orderTable.Controls.Add(lab_order);
+            btn_orderTable.Controls.Add(pbox_order);
             btn_orderTable.Cursor = Cursors.Hand;
             btn_orderTable.Location = new Point(164, 372);
             btn_orderTable.Name = "btn_orderTable";
             btn_orderTable.Size = new Size(591, 87);
             btn_orderTable.TabIndex = 5;
             // 
-            // label2
+            // lab_order
             // 
-            label2.Font = new Font("Times New Roman", 28.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.White;
-            label2.Location = new Point(247, 1);
-            label2.Name = "label2";
-            label2.Size = new Size(212, 85);
-            label2.TabIndex = 5;
-            label2.Text = "Đặt bàn";
-            label2.TextAlign = ContentAlignment.MiddleCenter;
+            lab_order.Font = new Font("Times New Roman", 28.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lab_order.ForeColor = Color.White;
+            lab_order.Location = new Point(247, 1);
+            lab_order.Name = "lab_order";
+            lab_order.Size = new Size(212, 85);
+            lab_order.TabIndex = 5;
+            lab_order.Text = "Đặt bàn";
+            lab_order.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // pictureBox2
+            // pbox_order
             // 
-            pictureBox2.ErrorImage = (Image)resources.GetObject("pictureBox2.ErrorImage");
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.InitialImage = (Image)resources.GetObject("pictureBox2.InitialImage");
-            pictureBox2.Location = new Point(131, 1);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(113, 84);
-            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox2.TabIndex = 4;
-            pictureBox2.TabStop = false;
+            pbox_order.ErrorImage = (Image)resources.GetObject("pbox_order.ErrorImage");
+            pbox_order.Image = (Image)resources.GetObject("pbox_order.Image");
+            pbox_order.InitialImage = (Image)resources.GetObject("pbox_order.InitialImage");
+            pbox_order.Location = new Point(131, 1);
+            pbox_order.Name = "pbox_order";
+            pbox_order.Size = new Size(113, 84);
+            pbox_order.SizeMode = PictureBoxSizeMode.Zoom;
+            pbox_order.TabIndex = 4;
+            pbox_order.TabStop = false;
             // 
             // FormDetailTableOrder
             // 
@@ -133,9 +134,9 @@
             Size = new Size(1091, 1866);
             Load += FormDetailTableOrder_Load;
             btn_openTable.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pbox_openTable).EndInit();
             btn_orderTable.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pbox_order).EndInit();
             ResumeLayout(false);
         }
 
@@ -143,10 +144,10 @@
 
         private Label lab_NameTable;
         private Panel btn_openTable;
-        private Label label1;
-        private PictureBox pictureBox1;
+        private Label lab_openTable;
+        private PictureBox pbox_openTable;
         private Panel btn_orderTable;
-        private Label label2;
-        private PictureBox pictureBox2;
+        private Label lab_order;
+        private PictureBox pbox_order;
     }
 }

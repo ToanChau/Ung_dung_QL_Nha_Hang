@@ -1,4 +1,5 @@
-﻿using System;
+﻿using main_form.work;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,12 +9,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace main_form.work
+namespace main_form.FormApp.UserController
 {
-    public partial class PanelDishes : UserControl
+    public partial class panelDishes : UserControl
     {
         private string nameFoodText;
-        [Category("Custom Properties")]
+        [Category("Behavior")]
         public string NameFoodText
         {
             get { return nameFoodText; }
@@ -25,7 +26,7 @@ namespace main_form.work
         }
 
         private string priceFoodText;
-        [Category("Custom Properties")]
+        [Category("Behavior")]
         public string PriceFoodText
         {
             get { return priceFoodText; }
@@ -37,19 +38,19 @@ namespace main_form.work
         }
 
         private Image imageFood;
-        [Category("Custom Properties")]
+        [Category("Behavior")]
         public Image ImageFood
         {
             get { return imageFood; }
             set
             {
                 imageFood = value;
-                picbox_foodImage.Image = imageFood;
+                picbox_foodImage.Image = value;
             }
         }
 
         private Color panelFoodColor;
-        [Category("Custom Properties")]
+        [Category("Behavior")]
         public Color PanelFoodColor
         {
             get { return panelFoodColor; }
@@ -63,16 +64,17 @@ namespace main_form.work
         private int iD;
         public int ID
         {
-            get { return ID; }
+            get { return iD; }
             set
             {
-                iD = ID;
+                iD = value ;
             }
         }
-        public PanelDishes()
+
+
+        public panelDishes()
         {
             InitializeComponent();
-            //màu background
             this.BackColor = Color.Transparent;
 
             //set up các thuộc tính cơ bản
@@ -80,24 +82,11 @@ namespace main_form.work
             priceFoodText = "price food";
             imageFood = picbox_foodImage.Image;
             panelFoodColor = pan_background.BackColor;
-
-            //vẽ border radius
-            setUpBorderR();
-            pan_background.Click += UserControl_Click;
-            lab_foodName.Click += UserControl_Click;
-            lab_foodPrice.Click += UserControl_Click;
-
-            this.MouseHover += UserControl_Hover;
-            pan_background.MouseHover += UserControl_Hover;
-
-            this.MouseLeave += UserControl_Leave;
-            pan_background.MouseLeave += UserControl_Leave;
         }
-
-        private void setUpBorderR()
-        {
-            setUpBR.setUpBorderRadius(this, "pan_background", 30, 30);
-        }
+        //private void setUpBorderR()
+        //{
+        //    setUpBR.setUpBorderRadius(this, "pan_background", 30, 30);
+        //}
 
         private void UserControl_Click(object sender, EventArgs e)
         {

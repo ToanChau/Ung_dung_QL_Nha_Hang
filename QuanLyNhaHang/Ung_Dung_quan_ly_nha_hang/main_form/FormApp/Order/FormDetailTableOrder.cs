@@ -1,4 +1,6 @@
-﻿using main_form.work;
+﻿using main_form.FormApp;
+using main_form.OOP;
+using main_form.work;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -31,9 +33,20 @@ namespace main_form
             InitializeComponent();
         }
 
+        FormOrder f;
+        tableInfor tbl;
+        public FormDetailTableOrder(FormOrder f, tableInfor tbl)
+        {
+            InitializeComponent();
+            this.f = f;
+            this.tbl = tbl;
+        }
+
         private void FormDetailTableOrder_Load(object sender, EventArgs e)
         {
             setUpButton();
+            lab_openTable.Click += openTable_click;
+            pbox_openTable.Click += openTable_click;
         }
 
         private void setUpButton()
@@ -45,7 +58,7 @@ namespace main_form
         private void openTable_click(object sender, EventArgs e)
         {
             UserControlWork uw = new UserControlWork();
-            //uw.OpenPanelForUserCtrl(new )
+            uw.OpenPanelForUserCtrl(new FormOpenTableDetail(f, tbl), f.SplPCon_Order.Panel2);
         }
     }
 }

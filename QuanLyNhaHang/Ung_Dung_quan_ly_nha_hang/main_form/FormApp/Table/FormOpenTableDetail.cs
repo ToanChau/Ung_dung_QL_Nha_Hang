@@ -33,11 +33,13 @@ namespace main_form.FormApp
             InitializeComponent();
         }
 
+        FormOrder f;
         tableInfor tbl;
 
-        public FormOpenTableDetail(tableInfor tbl)
+        public FormOpenTableDetail(FormOrder f, tableInfor tbl)
         {
             InitializeComponent();
+            this.f = f;
             this.tbl = tbl;
             lab_NameTable.Text = tbl.Name;
         }

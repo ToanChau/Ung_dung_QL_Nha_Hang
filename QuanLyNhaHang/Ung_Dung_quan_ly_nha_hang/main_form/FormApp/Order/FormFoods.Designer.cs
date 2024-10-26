@@ -29,19 +29,20 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormFoods));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             lab_NameTable = new Label();
             flowLayoutPanel1 = new FlowLayoutPanel();
-            panelDishes1 = new work.PanelDishes();
-            panelDishes2 = new work.PanelDishes();
-            panelDishes3 = new work.PanelDishes();
+            panelDishes1 = new UserController.panelDishes();
+            panelDishes2 = new UserController.panelDishes();
+            panelDishes3 = new UserController.panelDishes();
             txt_findFood = new Panel();
             btn_FindFoodIcon = new PictureBox();
             txt_foodFindName = new Guna.UI2.WinForms.Guna2TextBox();
             btn_addFood = new Panel();
             label1 = new Label();
             pictureBox1 = new PictureBox();
+            panelDishes4 = new UserController.panelDishes();
             flowLayoutPanel1.SuspendLayout();
             txt_findFood.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)btn_FindFoodIcon).BeginInit();
@@ -68,6 +69,7 @@
             flowLayoutPanel1.Controls.Add(panelDishes1);
             flowLayoutPanel1.Controls.Add(panelDishes2);
             flowLayoutPanel1.Controls.Add(panelDishes3);
+            flowLayoutPanel1.Controls.Add(panelDishes4);
             flowLayoutPanel1.Location = new Point(77, 296);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
             flowLayoutPanel1.Size = new Size(741, 452);
@@ -77,40 +79,43 @@
             // 
             panelDishes1.AutoSize = true;
             panelDishes1.BackColor = Color.Transparent;
-            panelDishes1.ImageFood = (Image)resources.GetObject("panelDishes1.ImageFood");
+            panelDishes1.ID = 0;
+            panelDishes1.ImageFood = null;
             panelDishes1.Location = new Point(3, 3);
             panelDishes1.Name = "panelDishes1";
             panelDishes1.NameFoodText = "name food";
             panelDishes1.PanelFoodColor = Color.LightSkyBlue;
             panelDishes1.PriceFoodText = "price food";
-            panelDishes1.Size = new Size(689, 127);
-            panelDishes1.TabIndex = 11;
+            panelDishes1.Size = new Size(732, 111);
+            panelDishes1.TabIndex = 0;
             // 
             // panelDishes2
             // 
             panelDishes2.AutoSize = true;
             panelDishes2.BackColor = Color.Transparent;
-            panelDishes2.ImageFood = (Image)resources.GetObject("panelDishes2.ImageFood");
-            panelDishes2.Location = new Point(3, 136);
+            panelDishes2.ID = 0;
+            panelDishes2.ImageFood = null;
+            panelDishes2.Location = new Point(3, 120);
             panelDishes2.Name = "panelDishes2";
             panelDishes2.NameFoodText = "name food";
-            panelDishes2.PanelFoodColor = Color.RoyalBlue;
+            panelDishes2.PanelFoodColor = Color.LightSkyBlue;
             panelDishes2.PriceFoodText = "price food";
-            panelDishes2.Size = new Size(689, 127);
-            panelDishes2.TabIndex = 11;
+            panelDishes2.Size = new Size(732, 111);
+            panelDishes2.TabIndex = 1;
             // 
             // panelDishes3
             // 
             panelDishes3.AutoSize = true;
             panelDishes3.BackColor = Color.Transparent;
-            panelDishes3.ImageFood = (Image)resources.GetObject("panelDishes3.ImageFood");
-            panelDishes3.Location = new Point(3, 269);
+            panelDishes3.ID = 0;
+            panelDishes3.ImageFood = null;
+            panelDishes3.Location = new Point(3, 237);
             panelDishes3.Name = "panelDishes3";
             panelDishes3.NameFoodText = "name food";
             panelDishes3.PanelFoodColor = Color.LightSkyBlue;
             panelDishes3.PriceFoodText = "price food";
-            panelDishes3.Size = new Size(689, 127);
-            panelDishes3.TabIndex = 11;
+            panelDishes3.Size = new Size(732, 111);
+            panelDishes3.TabIndex = 2;
             // 
             // txt_findFood
             // 
@@ -143,7 +148,7 @@
             // txt_foodFindName
             // 
             txt_foodFindName.BorderThickness = 0;
-            txt_foodFindName.CustomizableEdges = customizableEdges3;
+            txt_foodFindName.CustomizableEdges = customizableEdges1;
             txt_foodFindName.DefaultText = "";
             txt_foodFindName.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txt_foodFindName.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -159,7 +164,7 @@
             txt_foodFindName.PasswordChar = '\0';
             txt_foodFindName.PlaceholderText = "";
             txt_foodFindName.SelectedText = "";
-            txt_foodFindName.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            txt_foodFindName.ShadowDecoration.CustomizableEdges = customizableEdges2;
             txt_foodFindName.Size = new Size(623, 83);
             txt_foodFindName.TabIndex = 10;
             // 
@@ -197,6 +202,20 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
+            // panelDishes4
+            // 
+            panelDishes4.AutoSize = true;
+            panelDishes4.BackColor = Color.Transparent;
+            panelDishes4.ID = 0;
+            panelDishes4.ImageFood = null;
+            panelDishes4.Location = new Point(3, 354);
+            panelDishes4.Name = "panelDishes4";
+            panelDishes4.NameFoodText = "name food";
+            panelDishes4.PanelFoodColor = Color.LightSkyBlue;
+            panelDishes4.PriceFoodText = "price food";
+            panelDishes4.Size = new Size(732, 111);
+            panelDishes4.TabIndex = 3;
+            // 
             // FormFoods
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -224,11 +243,13 @@
         private Panel txt_findFood;
         private PictureBox btn_FindFoodIcon;
         private Guna.UI2.WinForms.Guna2TextBox txt_foodFindName;
-        private work.PanelDishes panelDishes1;
-        private work.PanelDishes panelDishes2;
-        private work.PanelDishes panelDishes3;
+
         private Panel btn_addFood;
         private Label label1;
         private PictureBox pictureBox1;
+        private UserController.panelDishes panelDishes1;
+        private UserController.panelDishes panelDishes2;
+        private UserController.panelDishes panelDishes3;
+        private UserController.panelDishes panelDishes4;
     }
 }

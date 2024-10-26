@@ -52,7 +52,7 @@ namespace main_form.FormApp.UserController
         private int iD;
         public int ID
         {
-            get { return ID; }
+            get { return iD; }
             set
             {
                 iD = ID;
